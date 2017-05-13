@@ -16,7 +16,7 @@
       nameInput.classList.add('danger');
       submitButton.disabled = true;
     } else {
-      nameInput.ClassList.remove('danger');
+      nameInput.classList.remove('danger');
       submitButton.disabled = false;
     }
   });
@@ -28,7 +28,7 @@
       emailInput.classList.add('danger');
       submitButton.disabled = true;
     } else {
-      emailInput.ClassList.remove('danger');
+      emailInput.classList.remove('danger');
       submitButton.disabled = false;
     }
   });
